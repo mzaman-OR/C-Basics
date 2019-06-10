@@ -1,0 +1,29 @@
+// Calculate area of a traingle
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	//formula Area of trangle = (b * h) / 2
+	
+	//declaration
+	int b, h, area;
+	
+	//input
+	cout << "what is the breadth? ";
+	cin >> b ;
+	
+	cout << "what is the Height? ";
+	cin >> h ;
+	
+	//process
+	area = (b * h) / 2;
+	
+	//output
+	cout << "The area of the triangle is " << area;
+	
+	
+	return 0;
+}
